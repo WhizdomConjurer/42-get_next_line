@@ -6,7 +6,7 @@
 /*   By: whi <whi@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/27 14:03:40 by whi               #+#    #+#             */
-/*   Updated: 2025/01/27 14:14:56 by whi              ###   ########.fr       */
+/*   Updated: 2025/01/27 14:31:01 by whi              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@
 #  define BUFFER_SIZE 2048
 # endif
 
-char	*get_next_line(int ft, ...);
+char	*get_next_line(int ft);
+size_t	ft_strlen(const char *str);
+char	*ft_strdup(const char *s1);
 
 
 #endif
